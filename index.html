@@ -1,1 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <title>Astitva Archive (AST) | Global Synergetic Foundation</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Astitva Archive is a structured scholarly system for the study of knowledge, existence, and consciousness, integrating Vedic traditions with contemporary inquiry.">
+  <meta name="keywords" content="Astitva Archive, Vedic studies, ontology, consciousness, Indian knowledge systems, interdisciplinary research">
+  <meta name="author" content="Sati Shankar">
+  <meta name="alternate-name" content="Sati Shankar Dutta Pandey">
+  <meta name="orcid_id" content="0000-0003-4638-1745">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2c3e2f">
+  <meta name="language" content="en">
+  <meta name="geo.region" content="IN">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://astitva.gsfn.org/">
+  <link rel="author" href="https://orcid.org/0000-0003-4638-1745">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+  <link rel="icon" href="/favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Astitva Archive">
+  <meta property="og:description" content="Scholarly system for studying existence, knowledge, and consciousness">
+  <meta property="og:url" content="https://astitva.gsfn.org/">
+  <meta property="og:site_name" content="Global Synergetic Foundation">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Astitva Archive">
+  <meta name="twitter:description" content="Scholarly system for studying existence, knowledge, and consciousness">
+
+  <!-- Dublin Core -->
+  <meta name="dc.title" content="Astitva Archive">
+  <meta name="dc.creator" content="Sati Shankar">
+  <meta name="dc.description" content="Astitva Archive is a structured scholarly system for the study of knowledge, existence, and consciousness, integrating Vedic traditions with contemporary inquiry.">
+  <meta name="dc.publisher" content="Global Synergetic Foundation">
+  <meta name="dc.identifier" content="https://astitva.gsfn.org/">
+  <meta name="dc.language" content="en">
+  <meta name="dc.rights" content="CC BY 4.0">
+
+  <!-- Citation Metadata (for the archive as a whole) -->
+  <meta name="citation_title" content="Astitva Archive">
+  <meta name="citation_author" content="Sati Shankar">
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-4638-1745">
+  <meta name="citation_author_institution" content="Global Synergetic Foundation">
+  <meta name="citation_journal_title" content="Astitva Archive">
+  <meta name="citation_issn" content="2454-602X">
+  <meta name="citation_publisher" content="Global Synergetic Foundation">
+  <meta name="citation_language" content="eng">
+
+  <!-- JSON-LD (rich metadata for digital handshake) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "DataCatalog",
+        "@id": "https://astitva.gsfn.org/#archive",
+        "name": "Astitva Archive",
+        "description": "Scholarly archive for interdisciplinary research on knowledge, existence, and consciousness.",
+        "url": "https://astitva.gsfn.org/",
+        "publisher": { "@id": "https://www.gsfn.org/#organization" },
+        "issn": "2454-602X",
+        "creator": {
+          "@type": "Person",
+          "name": "Sati Shankar",
+          "alternateName": "Sati Shankar Dutta Pandey",
+          "identifier": "https://orcid.org/0000-0003-4638-1745",
+          "sameAs": "https://orcid.org/0000-0003-4638-1745"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://sati-shankar.gsfn.org/#person",
+        "name": "Sati Shankar",
+        "alternateName": "Sati Shankar Dutta Pandey",
+        "identifier": "https://orcid.org/0000-0003-4638-1745",
+        "sameAs": "https://orcid.org/0000-0003-4638-1745",
+        "url": "https://sati-shankar.gsfn.org"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.gsfn.org/#organization",
+        "name": "Global Synergetic Foundation",
+        "url": "https://www.gsfn.org",
+        "founder": { "@id": "https://sati-shankar.gsfn.org/#person" }
+      }
+    ]
+  }
+  </script>
+
+  <!-- CSS: unified, plain background, no shades -->
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #666;
+      --border: #ddd;
+      --accent: #000;
+      --bg: #ffffff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      text-rendering: optimizeLegibility;
+    }
+    .container {
+      max-width: 720px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 1.2rem;
+    }
+    .logo img {
+      max-width: 160px;
+      height: auto;
+    }
+    nav {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+    nav a:hover { text-decoration: underline; }
+    h1 {
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+      margin-bottom: 0.5rem;
+      margin-top: 0;
+    }
+    .subhead {
+      text-align: center;
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin-top: 2rem;
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+    }
+    /* No highlight shading */
+    .highlight {
+      margin: 1rem 0;
+      padding: 0;           /* remove padding */
+      background: none;    /* plain */
+      border-left: none;   /* no colored border */
+    }
+    ul, ol {
+      margin: 0.5rem 0 1rem 1.5rem;
+    }
+    li {
+      margin-bottom: 0.25rem;
+    }
+    pre {
+      background: none;    /* plain */
+      padding: 0;          /* remove padding */
+      text-align: center;
+      font-family: monospace;
+      font-size: 0.9rem;
+      margin: 1rem 0;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.75rem;
+      line-height: 1.3;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+      padding-top: 0.8rem;
+    }
+    footer p {
+      margin: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- Logo (consistent with Astitva landing page) -->
+  <div class="logo">
+    <img src="/logo-astitva.png" alt="Astitva Archive Logo">
+  </div>
+
+  <!-- Navigation – unified across ecosystem -->
+  <nav>
+    <a href="https://www.gsfn.org/">Institution</a> |
+    <a href="https://astitva.gsfn.org/">Astitva</a> |
+    <a href="https://astitva.gsfn.org/svs/">Svādhyāya</a> |
+    <a href="https://astitva.gsfn.org/arch/">Archive</a> |
+    <a href="https://sati-shankar.gsfn.org/">Founder</a>
+  </nav>
+
+  <main>
+    <h1>Astitva Archive</h1>
+    <div class="subhead">A structured scholarly system for the study of knowledge, existence, and consciousness.</div>
+
+    <section>
+      <h2>Overview</h2>
+      <p>
+        The <strong>Astitva Archive</strong> is an integrated scholarly system developed
+        for the rigorous study of foundational questions concerning existence,
+        knowledge, and consciousness. It brings into dialogue classical intellectual
+        traditions—particularly the Veda—with contemporary scientific and philosophical inquiry.
+      </p>
+    </section>
+
+    <section>
+      <h2>Structure of the System</h2>
+      <div class="highlight">
+        <p><strong>Svādhyāya Saṁhitā (SVS)</strong> → Research in formation</p>
+        <p><strong>Astitva Archive (AST)</strong> → Stabilized knowledge</p>
+      </div>
+      <p>
+        The archive operates through a two-layer epistemic structure:
+        exploratory research notes are developed within the Svādhyāya Saṁhitā,
+        and mature insights are subsequently formalized into stable scholarly
+        works within the Astitva Archive.
+      </p>
+    </section>
+
+    <section>
+      <h2>Cycle of Inquiry</h2>
+      <pre>
+Astitva → Vedic-Hṛdaya-Cakṣu → Svagarbhā → Astitva
+      </pre>
+      <p>
+        Inquiry begins with the question of existence (<em>astitva</em>), proceeds
+        through interpretive vision, and culminates in generative principles,
+        before returning to the question of being itself.
+      </p>
+    </section>
+
+    <section>
+      <h2>Research Programme</h2>
+      <p>
+        The archive supports long-term research into ontology, cosmology,
+        cognition, and the structure of knowledge systems, with particular
+        attention to Vedic and Indian philosophical traditions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Scholarly Infrastructure</h2>
+      <ul>
+        <li>ISSN-registered archive (ISSN 2454-602X)</li>
+        <li>DOI-based publication system</li>
+        <li>Structured metadata for machine discoverability</li>
+        <li>Canonical landing pages for each publication</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Access</h2>
+      <ul>
+        <li><a href="https://astitva.gsfn.org/svs/">Enter Svādhyāya Saṁhitā (Research Notes)</a></li>
+        <li><a href="https://astitva.gsfn.org/arch/">Browse Astitva Archive (Final Works)</a></li>
+        <li><a href="https://astitva.gsfn.org/registry.html">Publication Registry</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Astitva Archive | Global Synergetic Foundation<br>
+    ISSN 2454-602X | CC BY 4.0<br>
+    Permanent scholarly record</p>
+  </footer>
+</div>
+</body>
+</html>
