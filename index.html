@@ -1,1 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Astitva (AST) | Global Synergetic Foundation</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Astitva is a structured scholarly system for the study of knowledge, existence, and consciousness, integrating Vedic traditions with contemporary inquiry.">
+  <meta name="keywords" content="Astitva, Vedic studies, ontology, consciousness, Indian knowledge systems, interdisciplinary research">
+  <meta name="author" content="Sati Shankar">
+  <meta name="alternate-name" content="Sati Shankar Dutta Pandey">
+  <meta name="orcid_id" content="0000-0003-4638-1745">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a1a1a">
+  <meta name="language" content="en">
+  <meta name="geo.region" content="IN">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://astitva.gsfn.org/">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Astitva">
+  <meta property="og:description" content="Scholarly system for studying existence, knowledge, and consciousness">
+  <meta property="og:url" content="https://astitva.gsfn.org/">
+  <meta property="og:site_name" content="Global Synergetic Foundation">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Astitva">
+  <meta name="twitter:description" content="Scholarly system for studying existence, knowledge, and consciousness">
+
+  <!-- Dublin Core & Citation -->
+  <meta name="dc.title" content="Astitva">
+  <meta name="dc.creator" content="Sati Shankar">
+  <meta name="dc.description" content="Astitva is a structured scholarly system for the study of knowledge, existence, and consciousness, integrating Vedic traditions with contemporary inquiry.">
+  <meta name="dc.publisher" content="Global Synergetic Foundation">
+  <meta name="dc.identifier" content="https://astitva.gsfn.org/">
+  <meta name="dc.language" content="en">
+  <meta name="dc.rights" content="CC BY 4.0">
+  <meta name="citation_title" content="Astitva">
+  <meta name="citation_author" content="Sati Shankar">
+  <meta name="citation_author_orcid" content="https://orcid.org/0000-0003-4638-1745">
+  <meta name="citation_author_institution" content="Global Synergetic Foundation">
+  <meta name="citation_journal_title" content="Astitva">
+  <meta name="citation_issn" content="2454-602X">
+  <meta name="citation_publisher" content="Global Synergetic Foundation">
+  <meta name="citation_language" content="eng">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "DataCatalog",
+        "@id": "https://astitva.gsfn.org/#",
+        "name": "Astitva",
+        "description": "Scholarly system for interdisciplinary research on knowledge, existence, and consciousness.",
+        "url": "https://astitva.gsfn.org/",
+        "publisher": { "@id": "https://www.gsfn.org/#organization" },
+        "issn": "2454-602X",
+        "creator": {
+          "@type": "Person",
+          "name": "Sati Shankar",
+          "alternateName": "Sati Shankar Dutta Pandey",
+          "identifier": "https://orcid.org/0000-0003-4638-1745",
+          "sameAs": "https://orcid.org/0000-0003-4638-1745"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://sati-shankar.gsfn.org/#person",
+        "name": "Sati Shankar",
+        "alternateName": "Sati Shankar Dutta Pandey",
+        "identifier": "https://orcid.org/0000-0003-4638-1745",
+        "sameAs": "https://orcid.org/0000-0003-4638-1745",
+        "url": "https://sati-shankar.gsfn.org"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.gsfn.org/#organization",
+        "name": "Global Synergetic Foundation",
+        "url": "https://www.gsfn.org",
+        "founder": { "@id": "https://sati-shankar.gsfn.org/#person" }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #555;
+      --border: #e0e0e0;
+      --soft: #f7f7f7;
+      --link: #111;
+      --bg: #fff;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      line-height: 1.58;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      padding: 1.4rem 0.85rem 2.2rem;
+    }
+    .container { max-width: 620px; margin: 0 auto; }
+    nav {
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+      color: var(--muted);
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      margin: 0 0.4rem;
+    }
+    nav a:hover, nav a:focus {
+      color: var(--text);
+      text-decoration: underline;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 1.6rem;
+      padding-bottom: 1.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 1.65rem;
+      font-weight: 400;
+      letter-spacing: -0.015em;
+      margin-bottom: 0.35rem;
+    }
+    .subhead {
+      font-size: 0.93rem;
+      color: var(--muted);
+    }
+    section { margin-bottom: 1.55rem; }
+    h2 {
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.045em;
+      text-transform: uppercase;
+      color: #2a2a2a;
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.22rem;
+      border-bottom: 1px solid var(--border);
+    }
+    p {
+      margin-bottom: 0.65rem;
+      font-size: 0.94rem;
+    }
+    p:last-child { margin-bottom: 0; }
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    a:hover { color: #000; }
+    em { font-style: italic; }
+    strong { font-weight: 600; }
+
+    .id-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+      margin-top: 0.35rem;
+    }
+    .id-table td {
+      padding: 0.32rem 0.5rem 0.32rem 0;
+      vertical-align: top;
+      border-bottom: 1px solid #eee;
+    }
+    .id-table td:first-child {
+      width: 110px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .id-table tr:last-child td { border-bottom: none; }
+
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.72rem;
+      line-height: 1.5;
+      color: var(--muted);
+      text-align: center;
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--text); }
+
+    @media (max-width: 520px) {
+      body { padding: 1.1rem 0.7rem 1.8rem; }
+      h1 { font-size: 1.45rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <nav aria-label="Primary links">
+      <a href="https://www.gsfn.org/">Institution</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://astitva.gsfn.org/">Astitva</a>
+      <span aria-hidden="true">·</span>
+      <a href="https://sati-shankar.gsfn.org/">Founder</a>
+    </nav>
+
+    <header>
+      <h1>Astitva: Svādhyāya-Saṁhitā</h1>
+      <div class="subhead">A structured scholarly system for the study of knowledge, existence, and consciousness.</div>
+    </header>
+
+    <main>
+
+      <section>
+        <h2>On the Title</h2>
+        <p>
+          Three Sanskrit words carry the full weight of this archive’s purpose.
+        </p>
+        <p>
+          <strong>Astitva</strong>, from the verbal root <em>as</em> (to be, to exist), names the philosophical question that has animated this entire undertaking: What is the nature of being? What does it mean for anything to exist at all? The question opens into the deepest strata of Indian philosophical thought, the ontological preoccupations of the Veda and its commentarial inheritance, and outward into philosophy, mathematics and cognitive inquiry. Astitva is not a theme chosen for academic convenience; it is the question that would not let go.
+        </p>
+        <p>
+          <strong>Svādhyāya</strong>, from <em>sva</em> (self, one’s own) and <em>adhyāya</em> (study, a lesson, a chapter of inquiry), designates a mode of learning that is both intimate and rigorous. In the Vedic educational tradition, svādhyāya is counted among the foundational <em>niyamas</em>: the daily, sustained recitation, reflection upon, and internalization of texts. It is learning that is not merely academic but constitutive — it changes the one who undertakes it. The Taittirīya Upaniṣad enjoins <em>svādhyāyān mā pramadaḥ</em> — do not be negligent in svādhyāya. This archive takes that injunction seriously.
+        </p>
+        <p>
+          <strong>Saṁhitā</strong>, from the root <em>dhā</em> with the prefix <em>sam</em> (a bringing-together), denotes a careful collection in which disparate elements are drawn into considered relation. The great Vedic Saṁhitās are themselves archives: a civilization’s most sustained meditations on existence, gathered and transmitted across millennia. To name this collection a Saṁhitā is to acknowledge both its intellectual lineage and its compositional character.
+        </p>
+        <p>
+          Together, the title announces: a collection of disciplined self-inquiry into the nature of existence.
+        </p>
+      </section>
+
+      <section>
+        <h2>The Nature of This Work</h2>
+        <p>
+          What distinguishes the body of writing gathered here is not primarily the range of subjects it addresses, but the mode of attention it sustains. The work is the product of more than three decades of sustained inquiry at the intersection of Vedic textual study, classical Indian philosophy, the philosophy of science, formal mathematics and questions of cognition and consciousness.
+        </p>
+        <p>
+          The archive records both the finished expressions of that inquiry and the earlier, more provisional explorations that prepared the way. It is offered in the spirit of intellectual transparency: a documentary record of how scholarly understanding develops over time.
+        </p>
+      </section>
+
+      <section>
+        <h2>A Living Compilation</h2>
+        <p>
+          Scholarship of this kind does not conclude. The questions that motivate the work — about being, consciousness, knowledge, and the structures through which reality becomes intelligible — are orientations one inhabits more or less deeply over a lifetime. New texts disclose themselves to a more prepared reader; earlier formulations reveal their inadequacies; the traditions prove richer and more internally contested than any early reading suggested.
+        </p>
+        <p>
+          This archive will grow with the inquiry. Writings from across the full span of the work — past, present, and those yet to be written — will be inducted as the investigation proceeds. The Saṁhitā is, in the most literal sense, a living compilation.
+        </p>
+      </section>
+
+      <section>
+        <h2>Scholarly Infrastructure</h2>
+        <p>
+          ISSN-registered series (ISSN 2454-602X) · DOI-based publication system · Structured metadata for machine discoverability · Canonical landing pages for each publication.
+        </p>
+      </section>
+
+      <section>
+        <h2>Institutional Identity</h2>
+        <p>
+          The Global Synergetic Foundation is committed to rigorous inquiry at the foundations of knowledge, existence and human understanding across civilizational and disciplinary traditions. Its institutional identity is registered in the principal international scholarly registries.
+        </p>
+        <table class="id-table">
+          <tr>
+            <td>Ringgold</td>
+            <td>498495</td>
+          </tr>
+          <tr>
+            <td>ISNI</td>
+            <td>0000 0004 6055 2958</td>
+          </tr>
+          <tr>
+            <td>Wikidata</td>
+            <td>Q138519824</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>The Founder</h2>
+        <p>
+          The Foundation was established by <a href="https://sati-shankar.gsfn.org/"><strong>Sati Shankar</strong></a> (Sati Shankar Dutta Pandey), an independent scholar and applied mathematician whose research explores the deep intersections between classical intellectual traditions and modern theoretical sciences. The body of work gathered in this archive is his, accumulated across more than three decades of sustained inquiry.
+        </p>
+        <table class="id-table">
+          <tr>
+            <td>ORCID</td>
+            <td><a href="https://orcid.org/0000-0003-4638-1745">0000-0003-4638-1745</a></td>
+          </tr>
+          <tr>
+            <td>ISNI</td>
+            <td>0000 0005 2727 9715</td>
+          </tr>
+          <tr>
+            <td>VIAF</td>
+            <td>96175412862703712037</td>
+          </tr>
+          <tr>
+            <td>Profile</td>
+            <td><a href="https://sati-shankar.gsfn.org">sati-shankar.gsfn.org</a></td>
+          </tr>
+        </table>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>
+        Global Synergetic Foundation (GSFN) — New Delhi, India<br>
+        <a href="https://www.gsfn.org">www.gsfn.org</a>
+        · <a href="https://astitva.gsfn.org">astitva.gsfn.org</a>
+        · <a href="https://sati-shankar.gsfn.org">sati-shankar.gsfn.org</a><br>
+        ISSN 2454-602X · CC BY 4.0
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
 
